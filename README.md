@@ -4,4 +4,4 @@
 ### Week 1:
 
 
-![Week 1 bewijs](⁨iCloud Drive⁩/⁨Desktop/BewijsWeek1.png⁩?raw=true "Week1")
+![Week 1 bewijs](https://github.com/GomezNicolas/portfolio/blob/master/lab1/Screenshot%202019-02-22%20at%2015.24.44.png⁩?raw=true "Week1")
