@@ -1,0 +1,23 @@
+.type {
+    font-size: 3em;
+    color: white;
+    background-color: #3E7CE5;
+    text-align: center;
+    padding: 20px 80px;
+    margin: 0;
+}
+.summary {
+    background-color: #3E7CE5;
+    color: white;
+    text-align: center;
+    padding: 20px 80px;
+    margin: 0;
+}
+
+.temp {
+    text-align: center;
+    color: white;
+    background-color: #3E7CE5;
+    padding: 20px 100px;
+    margin: 0;
+}
