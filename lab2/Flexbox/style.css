@@ -14,3 +14,20 @@ li{
     display: inline-block;
     flex: 1 1 150px;
 }
+
+.logo{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#photos div{
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0.3em;
+}
