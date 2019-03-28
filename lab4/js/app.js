@@ -66,3 +66,5 @@ class Images{
         })
     }
 }
+
+let app = new Weather('6c8db87a5cad6ff776ad9d85d14e54aa');
