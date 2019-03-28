@@ -45,4 +45,24 @@ class Images{
         this.searchword = summaryValue;
         this.initialize();
     }
+
+    initialize(){
+        this.getImages();
+    }
+
+    getImages(){
+        let url = `https://api.unsplash.com/search/photos?client_id=${this.CLIENT_KEY}&query=${this.searchword}`;
+        fetch(url)
+        .then(response => {
+            return response.json();
+        })
+        .then(json =>{
+            //add overlay class to overlay-div to make text over image clear. This is done here to prevent the overlay color to render before receiving API results.
+            let overlay = document.querySelector("#overlayComesHere");
+            overlay.setAttribute("class", "overlay");
+            //set first image (in full format) returned from API as background-image.
+            document.body.style.backgroundImage = `url(${json.results[0].urls.full})`;
+            
+        })
+    }
 }
