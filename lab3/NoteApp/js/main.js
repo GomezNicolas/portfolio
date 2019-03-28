@@ -24,4 +24,9 @@ class App {
         //this.btnAdd.eventlistener("click", this.bind(this));
         this.loadNotesFromStorage();
       }
+
+      createNote(e){
+        let newNote = new Note(title); 
+      }
+
 }
