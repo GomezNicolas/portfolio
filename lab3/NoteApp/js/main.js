@@ -11,6 +11,17 @@ class Note {
         console.log("create element function called");
         return newNote;
       }
+}
 
-
+class App {
+    constructor() {
+        console.log("👊🏼 The Constructor!");
+      
+        // HINT🤩
+        // clicking the button should work
+        // pressing the enter key should also work
+        this.btnAdd = document.querySelector("btnAddNote");
+        //this.btnAdd.eventlistener("click", this.bind(this));
+        this.loadNotesFromStorage();
+      }
 }
