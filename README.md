@@ -4,4 +4,14 @@
 ### Week 1:
 
 
-![Week 1 bewijs](https://github.com/GomezNicolas/portfolio/blob/master/lab1/Screenshot%202019-02-22%20at%2015.24.44.png⁩ "Week1")
+![](lab1/BewijsWeek1.png)
+
+
+### Week 2:
+
+
+![](lab2/Prove_Froggy_Nicolas.png)
+
+
+![](lab2/Prove_GridGarden_Nicolas.png)
+
