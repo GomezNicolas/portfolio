@@ -31,3 +31,22 @@ li{
     text-align: center;
     padding: 0.3em;
 }
+
+@media (min-width: 768px){
+
+    ul{
+        align-items: center;
+    }
+
+    li{
+        flex: 1 1 auto;
+    }
+    .logo{
+        flex-basis: auto;
+        order: 2;
+    }
+
+    .graffiti, .branding{
+        order: 3;
+    }
+}
