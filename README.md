@@ -16,6 +16,11 @@
 ![](lab2/Prove_GridGarden_Nicolas.png)
 
 
+Codepen link for Flexbox: https://codepen.io/NGomezz/pen/qveGxN
+
+Codepen link for CSS-Grid: https://codepen.io/NGomezz/pen/aMerKd
+
+
 
 ### Week 3 ES6: 
 
